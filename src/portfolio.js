@@ -22,7 +22,7 @@ const greeting = {
   subTitle:
     "Software Engineer with experience in Full-Stack engineering, machine learning and data engineering. Adept in backend development, model deployment and NLP using Python and Javascript. Proven ability to build end-to-end solutions",
   resumeLink:
-    "https://drive.google.com/file/d/1nllRJgJNNdr2CBSO_9VCzM76YBhhkFCl/view?usp=sharing",
+    "https://drive.google.com/file/d/1c2LYia0w1Fed5cGPeUZNcpB1QFPBhrOU/view?usp=sharing",
   portfolio_repository: "https://github.com/akash-2303/masterPortfolio",
   githubProfile: "https://github.com/akash-2303/AB-masterPortfolio",
 };

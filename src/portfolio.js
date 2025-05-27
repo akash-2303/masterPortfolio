@@ -1,5 +1,3 @@
-/* Change this file to get your personal Porfolio */
-
 // Website related settings
 const settings = {
   isSplash: false, // Change this to false if you don't want Splash screen.
@@ -13,7 +11,7 @@ const seo = {
   og: {
     title: "Akash Balaji Portfolio",
     type: "website",
-    url: "http://ashutoshhathidara.com/",
+    url: "https://akash-2303.github.io/",
   },
 };
 
@@ -26,7 +24,7 @@ const greeting = {
   resumeLink:
     "https://drive.google.com/file/d/1nllRJgJNNdr2CBSO_9VCzM76YBhhkFCl/view?usp=sharing",
   portfolio_repository: "https://github.com/akash-2303/masterPortfolio",
-  githubProfile: "https://github.com/akash-2303",
+  githubProfile: "https://github.com/akash-2303/AB-masterPortfolio",
 };
 
 const socialMediaLinks = [
@@ -225,16 +223,16 @@ const skills = {
           fontAwesomeClassname: "simple-icons:numpy",
           style: { color: "#013243" },
         },
-        {
-          skillName: "Matplotlib",
-          fontAwesomeClassname: "simple-icons:matplotlib",
-          style: { color: "#F9A03F" },
-        },
-        {
-          skillName: "Seaborn",
-          fontAwesomeClassname: "simple-icons:seaborn",
-          style: { color: "#3E5A99" },
-        },
+        // {
+        //   skillName: "Matplotlib",
+        //   fontAwesomeClassname: "simple-icons:matplotlib",
+        //   style: { color: "#F9A03F" },
+        // },
+        // {
+        //   skillName: "Seaborn",
+        //   fontAwesomeClassname: "simple-icons:seaborn",
+        //   style: { color: "#3E5A99" },
+        // },
         {
           skillName: "Plotly",
           fontAwesomeClassname: "simple-icons:plotly",
@@ -451,11 +449,11 @@ const experience = {
           title: "Web Developer (Part - Time)",
           company: "UF/IFAS",
           company_url: "https://ifas.ufl.edu/",
-          logo_path: "University-of-Florida-Logo.png",
+          logo_path: "uf-ifas.jpeg",
           duration: "Aug 2024 - Jan 2025",
           location: "Gainesville, FL (Remote)",
           description:
-            "Led development of the Spatial Metadata Investigator, a web app for validating IHO S-100 compliant metadata. Built with Tethys and Dockerized for deployment, it includes real-time XML validation, FAIR data integration, and PostgreSQL support for querying metadata discrepancies. Spearheaded app development using Django and Python, integrated FAIR principles, implemented two-stage XML validation with live feedback, designed PostgreSQL-backed metadata storage, and dockerized the application for cloud deployment. GitHub: https://github.com/akash-2303/tethysapp-metadata_investigator",
+            "Led the development of the Spatial Metadata Investigator, a full-stack web application built using Django and the Tethys framework, designed to help users create and validate metadata compliant with the IHO S-100 Universal Hydrographic Data Model. The application incorporates FAIR data principles to enhance metadata accessibility, interoperability, and reusability across platforms. A key feature is a custom-built, two-stage real-time XML validation system that provides dynamic feedback and detailed error logging to guide users through compliance issues. The backend leverages PostgreSQL for persistent metadata storage and querying capabilities. To ensure environment consistency and enable cloud deployment, the application was fully Dockerized, streamlining setup, scaling, and testing workflows across systems.GitHub: https://github.com/akash-2303/tethysapp-metadata_investigator",
           color: "#0879bf",
         },
       ],
@@ -471,7 +469,7 @@ const experience = {
           duration: "Aug 2024 – Dec 2024",
           location: "University of Florida",
           description:
-            "Led an NLP-based political discourse analysis project using YouTube debate comment data. Built a data pipeline with YouTube API to extract comments from 2020 and 2024 debates. Used pyannote and Bash scripts to generate timestamped transcripts and diarize speakers. Applied spaCy and CUDA-accelerated KNN for sentiment mapping over time. Explored BERT, GPT-2, and MIL models for text detoxification. Visualized opinion trends with Plotly, Dash, Seaborn, and Matplotlib. GitHub: https://github.com/akash-2303/Vibe-Check-Blog",
+            "At UF Data Studio, under the guidance of Dr. Christan Grant, I designed and implemented a large-scale data pipeline to analyze public reactions to U.S. election debates from 2020 to 2024. Using a multi-threaded scraping pipeline, I collected over 1 million YouTube comments and live chat messages in real time from multiple sources. To accurately link viewer reactions to specific debate moments, I constructed a timestamped, speaker-labeled transcript dataset using pyannote-audio for speaker diarization. I then developed a time-series KNN algorithm that processed over 26GB of vectorized comment data to map public responses to corresponding speaker segments. The insights were synthesized into an interactive dashboard using Dash and Plotly, enabling exploratory analysis of public sentiment dynamics across debates. GitHub: https://github.com/akash-2303/Vibe-Check-Blog",
           color: "#0021A5",
         },
       ],
